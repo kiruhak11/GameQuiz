@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Магазин"
+        android:fontFamily="@font/alal"
+        android:textColor="@color/colorWrite"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/shop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Доктора Кляйнера"
+        android:fontFamily="@font/alal"
+        android:textColor="@color/colorWrite"
+        android:layout_below="@+id/shop"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/cl"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пистолет 9мм   =   200"
+        android:textColor="@color/colorBack"
+        android:layout_below="@+id/cl"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="100dp"
+        android:id="@+id/pistol"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/alal"/>
+
+
+
+
+
+</RelativeLayout>
